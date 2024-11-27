@@ -1,0 +1,102 @@
+TODO možda sredi rerender contact list bug
+
+TODO možda sredi testove koji failaju
+
+TODO napiši JAVA report
+
+
+
+LINK za bazu
+https://inloop.github.io/sqlite-viewer/
+
+PROFESSORS EMAIL:
+As a reminder your application should at the minimum be able to:
+ - discover contacts on the local network
+ - chat with connected contact
+ - handle the message history
+ - provide a functional user interface
+
+ Some (repeated) technical tips:
+  - for the message history, we highly recommend using SQLite, a
+ database that is stored as a single file on the local machine. It can be
+ used with JDBC (that you love from the PDLA courses) through a specific
+ driver.
+  - the database is a module that highly benefits from automated testing
+ from the start. In your tests, you create (from Java) an empty database
+ and test your code for message insertion and access.
+  - for the UI we highly recommend using swing. In our experience,
+ several students last year attempted to use JavaFX with the promise of a
+ beautiful interface. In the end, the struggled a lot with integrating
+ it in their code base and their interface looked bad nevertheless.
+
+
+UML i PDLA report
+     -> UML part
+         -> Actors and assumptions (if any)
+         -> Use case diagrams
+         -> Class diagram
+         -> Sequence diagrams
+         -> Database schema
+         -> Architecture overview
+     -> PDLA part
+         -> describe how you have applied the agile method to conduct your project
+         -> describe how you have applied PDLA from creating the project until its automation (continuous integration)
+         -> describe how you have organized your collaborative work using GitHub (for instance, did you use branches or not ...etc)
+
+
+JAVA report
+    -> at the root of your repository
+    -> java-report.md
+    -> short, clearly structured, no introduction, no conclusion, minimal redundancy with the code, no boilerplate text.
+    -> three parts
+        - tech stack: motivation for using each of the technologies that appear in the project (TCP/UDP, mysql, swing, ...). Even if you feel you didn't have the choice, you should present reasonable reasons why you need it and why this technology is pertinent (you may also criticize it). Two/three sentences by technology. Assume the reader knows it.
+        - testing policy: present what has been done to test your project. Please do not list your unit tests. Rather say you how approached testing your project (unit tests being hopefully a part of the process).
+        - highlights (optional): list of a few parts of the code that you want us to look at to assess your abilities
+
+
+
+JAVA REPORT
+
+You must provide, at the root of your repository a java-report.md file, in markdown/text format.
+It must be very concise: short, clearly structured, no introduction, no conclusion, minimal redundancy with the code, no boilerplate text.
+
+It must have three parts:
+
+- tech stack: motivation for using each of the technologies that appear in the project (TCP/UDP, mysql, swing, ...). Even if you feel you didn't have the choice, you should present reasonable reasons why you need it and why this technology is pertinent (you may also criticize it). Two/three sentences by technology. Assume the reader knows it.
+- testing policy: present what has been done to test your project. Please do not list your unit tests. Rather say you how approached testing your project (unit tests being hopefully a part of the process).
+- highlights (optional): list of a few parts of the code that you want us to look at to assess your abilities
+
+The reason for the "highlights" part is that your projects are now fairly large and you cannot expect your teachers to read it all in details. Also my experience is that your code is of varying quality. If you have a part of the code that your are proud of and you think demonstrate your abilities to, e.g., write unit tests, you can indicate it to us to make sure we don't miss it.
+Of course, we will look at other things than the highlighted code. Plan ahead to ensure your highlighted code is of stellar quality (we will assume you cannot do better).
+
+Example:
+  - testing -> the chatsystem.DatabaseTest class
+  - code structure -> the ContactList class and its observer pattern
+  - correctness -> synchronized access of contact list
+  - error handling -> ...
+
+
+UML REPORT
+
+Hi everyone,
+As for the UML part,  please make sure to upload a PDF report in you repo describing you design and diagrams. The report should not exceed 10 pages and has the following outline:
+Actors and assumptions (if any)
+Use case diagrams
+Class diagram
+Sequence diagrams
+Database schema
+Architecture overview
+
+
+PDLA REPORT
+
+Hello everyone,
+For PDLA and project management (conduite de projet), you can provide one report with UML.
+Please add a distinct section dedicated to project management and PDLA. For the first part, you should clearly describe how you have applied the agile method to conduct your project.
+For PDLA, you should describe how you have applied PDLA from creating the project until its automation (continuous integration). Do not forget to present how you have organized your collaborative work using GitHub (for instance, did you use branches or not ...etc).
+Do not hesitate to contact me if you have questions.
+Regards,
+Nawal Guermouche
+
+
+

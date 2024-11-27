@@ -1,0 +1,7 @@
+group: A2  # replace with your own group (A1, A2, B1, B2, C1, SC1)
+names:  # Replace with your own names (lastname first)
+  - Šalković Paula
+  - Gršković Ana
+emails:  # Replace with your own INSA email address
+  - salkovic@insa-toulouse.fr
+  - grskovic@insa-toulouse.fr
